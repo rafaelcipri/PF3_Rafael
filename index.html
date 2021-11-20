@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title></title>
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- FONT FAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section class="section">
+      <div>
+        <label>Nome :</label><br>
+        <input type="text"  id="nome" class="input-control" placeholder="Digite seu nome" required></input>
+      </div>
+
+      <div>
+        <label>Valor aplicado :</label><br>
+        <input type="number" id="Valor_aplicado"  class="input-control" placeholder="Digite o valor aplicado" required></input>
+      </div>
+
+      <div>
+        <label>Juros :</label><br>
+        <input type="number" id="juros" class="input-control" placeholder="Digite o juros" required></input>
+      </div>
+
+      <div>
+        <label>Tempo :</label><br>
+        <input type="number" id="tempo" class="input-control" placeholder="Digite o tempo" required></input>
+      </div>
+
+      <button id="calc" style="color:#fff;">Calcular</button>
+
+      <div class="resultado" id="resultado"></div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
